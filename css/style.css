@@ -410,6 +410,17 @@ p {
   border-radius: 5px;
   width: 340px;
 }
+
+@media (max-width:479px) {
+  .services .item {
+    
+      margin-left:24px;
+    
+  }
+
+}
+
+
 .services .item:hover .icon {
   background: #1c1c1c;
   color: #eee;
